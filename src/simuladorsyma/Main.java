@@ -58,11 +58,10 @@ public class Main {
          
          time.concat("0");
          
-         System.out.println("Tiempo total de espera de los autos a ser atendidos: "+tiempo+" minutos");
+         System.out.println("Tiempo total de espera de los autos a ser atendidos: "+tiempo+" minutos(despues de pagar)");
          System.out.println("Tiempo total de la simulacion: "+(System.currentTimeMillis()-tiempoInicial)/1000 +" segs");
          System.out.println("Tiempo total de servicio: "+servTotal+" mins");
-         System.out.println("Tiempo promedio de espera: "+(tiempo/cantidadCarros)+" mins");
-         System.out.println("Tiempo de ocio "+ocio+" minutos");
+         System.out.println("Tiempo promedio de espera: "+(tiempo/cantidadCarros)+" mins(despues de pagar)");
          System.out.println("Tiempo total de ocio: "+(ocio+valorLlegada+ " minutos"));
          System.out.println("Tiempo promedio en fila antes de ser atendidos "+(tiempoFila/cantidadCarros+" mins"));
      
