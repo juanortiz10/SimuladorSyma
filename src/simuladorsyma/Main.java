@@ -29,6 +29,7 @@ public class Main {
             int random=(int)(Math.random()*(10-0+1)+0); 
             valorLlegada+=random;
             simulacion.start();
+            System.out.println("Auto #"+i+" entrando");
             Thread.sleep(10*random);
         }
          System.out.println("\nRESULTADOS FINALES DE SIMULACION\n");

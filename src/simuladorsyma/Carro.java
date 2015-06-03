@@ -12,16 +12,19 @@ public class Carro extends Thread{
             case 1:
                 ma.dinero1.add(1);
                 rec.start();
+                System.out.println("Paquete 1 Ordenado");
                 Thread.sleep(3000);
                 break;
             case 2: 
                 ma.dinero2.add(1);
                 rec.start();
+                System.out.println("Paquete 2 Ordenado");
                 Thread.sleep(4000);
                 break;
             case 3:
                 ma.dinero3.add(1);
                 rec.start();
+                System.out.println("Paquete 3 Ordenado");
                 Thread.sleep(4500);
                 break;
             }
